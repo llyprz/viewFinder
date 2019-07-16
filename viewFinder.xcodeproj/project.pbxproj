@@ -14,6 +14,7 @@
 		184CAFA122DE1CAF002124B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184CAF9F22DE1CAF002124B1 /* LaunchScreen.storyboard */; };
 		184CAFAC22DE1CAF002124B1 /* viewFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CAFAB22DE1CAF002124B1 /* viewFinderTests.swift */; };
 		184CAFB722DE1CAF002124B1 /* viewFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CAFB622DE1CAF002124B1 /* viewFinderUITests.swift */; };
+		184CAFC522DE26CF002124B1 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184CAFC422DE26CF002124B1 /* AddPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		184CAFB222DE1CAF002124B1 /* viewFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = viewFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		184CAFB622DE1CAF002124B1 /* viewFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewFinderUITests.swift; sourceTree = "<group>"; };
 		184CAFB822DE1CAF002124B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184CAFC422DE26CF002124B1 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				184CAF9322DE1CAE002124B1 /* AppDelegate.swift */,
 				184CAF9722DE1CAE002124B1 /* Main.storyboard */,
+				184CAFC422DE26CF002124B1 /* AddPhotoViewController.swift */,
 				184CAF9D22DE1CAF002124B1 /* Assets.xcassets */,
 				184CAF9F22DE1CAF002124B1 /* LaunchScreen.storyboard */,
 				184CAFA222DE1CAF002124B1 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				184CAF9C22DE1CAE002124B1 /* viewFinder.xcdatamodeld in Sources */,
+				184CAFC522DE26CF002124B1 /* AddPhotoViewController.swift in Sources */,
 				184CAF9422DE1CAE002124B1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
